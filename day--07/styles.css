@@ -1,0 +1,12 @@
+h1{color: blue; background-color: crimson;}
+p{color: chartreuse;background-color: chocolate;width: 250px; text-decoration: line-through;}
+#middle{color: blue;
+text-align: center;
+text-decoration: solid;
+background-color: black;}
+.text{background-color: aqua;}
+span{background-color: darkgrey; width: 200px;}
+body{background-image: url(../day--05/dd.jpg);
+    background-size: cover;
+
+}

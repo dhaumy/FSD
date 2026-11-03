@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: burlywood;
+    border: 2px solid brown;
+    align-items: center;
+    
+}
+
+div{
+    display: flex;
+    gap: 16px;
+}
+
+button{
+    background-color: goldenrod;
+    border-radius: 8px;
+    padding: 3px;
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    transition-property:all;
+    transition-duration: 3s;
+    scale: 0.3;
+
+    
+}
+
+button:active{
+    transform: scale(1.56);
+    color: aqua;
+}

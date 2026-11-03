@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+div{
+
+    height: 300px;
+    width: 100%;
+    background-color: red;
+    background-image: url(1138847824538835496.jpg);
+    background-size: 200px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+
+    
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newsletter Subscription</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <div class="card">
+    <!-- Headings: Add the main heading and subtitle here -->
+     <h1 class="">Subscribe to Newsletter</h1>
+     <p class="subtitle">Get the latest web dev updates in your inbox.</p>
+
+    <!-- Form: Create the form with input fields, checkboxes, note and button -->
+     <form method="post" class="form-group">
+     <label for="name" class="">Your Name</label>
+      <input id="name" placeholder="John Doe" name="name" type="text" required class="form-group input"><br>
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required class="form-group input"><br>
+
+
+      <div class="checkbox-group">
+      <label>Topics you're interested in:</label>
+      <div class="checkbox-item">
+      <input type="checkbox" id="topic-html" >
+      <label for="topic-html" >HTML & CSS</label></div>
+      <div class="checkbox-item">
+        <input type="checkbox" id="topic-js">
+        <label for="topic-js">JavaScript</label></div>
+      <div class="checkbox-item">
+        <input type="checkbox" id="topic-react">
+        <label for="topic-react">React</label>  
+
+      
+     </div></form>
+     <p class="note">We send<b> weekly</b> updates. <em>No spam, ever.<em></p>
+     <button class="subscribe-btn" type="submit">Subscribe Now</button>
+      
+
+
+    <!-- Footer: Add the footer text here -->
+    <p class="footer-text">You can unsubscribe at any time.</p>
+
+  </div>
+
+</body>
+</html>
